@@ -12,7 +12,7 @@ on:
       - main
 
 
-  schedule:
+#  schedule:
 #    - cron: 0 16 * * *
 
 jobs:
