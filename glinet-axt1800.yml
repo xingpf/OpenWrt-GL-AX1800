@@ -26,12 +26,27 @@ feeds:
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: d880bc09613529ec603b22dd8c87f80c3d1fa442
+    revision: 4a86be026945a3b8eaf38379b1756cb7123d0558
 include: []
 packages:
   - kmod-hwmon-pwmfan
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
+  - luci-theme-argon
+  - luci-app-argon-config
+  - luci-app-ramfree
+  - luci-app-wol
+  - luci-app-diskman
+  - luci-app-smartdns
+  - luci-app-openclash
+  - luci-app-aria2
   - luci-app-zerotier
+  - luci-app-turboacc
+  - luci-app-xlnetacc
+  - luci-app-cpufreq
+  - luci-app-ttyd
+  - luci-app-passwall
   - luci-app-ssr-plus
+  - luci-app-serverchan
+  - luci-app-transmission
