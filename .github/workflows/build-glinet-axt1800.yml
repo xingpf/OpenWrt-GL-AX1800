@@ -151,7 +151,7 @@ jobs:
         touch release.txt
         echo "## 📦‍ 固件下载 | GLINET AXT1800" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "- 🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
-        echo -e "## ✨ 主要功能\n1. ZeroTier内网穿透\n2. passwall2代理软件\n3. ssr-plus 代理软件" >> release.txt
+        echo -e "## ✨ 主要功能\n1. ZeroTier内网穿透\n2. ssr-plus 代理软件" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release

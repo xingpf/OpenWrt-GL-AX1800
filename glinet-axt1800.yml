@@ -34,5 +34,4 @@ packages:
   - wget-ssl
   - kmod-wireguard-backport
   - luci-app-zerotier
-  - luci-app-passwall2
   - luci-app-ssr-plus
