@@ -33,5 +33,4 @@ packages:
   - wireless-regdb
   - wget-ssl
   - kmod-wireguard-backport
-  - luci-app-vssr
   - luci-app-ssr-plus
