@@ -85,10 +85,10 @@ module.exports = [
 //     name: 'luci-app-syncdial',
 //     desc: '多拨虚拟网卡（需要光猫支持多拨）',
 //   },
-  {
-    name: 'luci-app-vssr',
-    desc: 'vssr代理软件',
-  },
+//   {
+//     name: 'luci-app-vssr',
+//     desc: 'vssr代理软件',
+//   },
   {
     name: 'luci-app-ssr-plus',
     desc: 'ssr-plus代理软件',
