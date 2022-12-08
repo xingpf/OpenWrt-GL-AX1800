@@ -41,18 +41,18 @@ module.exports = [
 //     name: 'luci-app-aria2',
 //     desc: 'aria2下载工具',
 //   },
-  {
-    name: 'luci-app-zerotier',
-    desc: 'ZeroTier内网穿透',
-  },
-  // {
-  //   name: 'luci-app-turboacc',
-  //   desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
-  // },
-  // {
-  //   name: 'luci-app-xlnetacc',
-  //   desc: '迅雷快鸟',
-  // },
+//   {
+//     name: 'luci-app-zerotier',
+//     desc: 'ZeroTier内网穿透',
+//   },
+//   {
+//     name: 'luci-app-turboacc',
+//     desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
+//   },
+//   {
+//     name: 'luci-app-xlnetacc',
+//     desc: '迅雷快鸟',
+//   },
 //   {
 //     name: 'luci-app-appfilter',
 //     desc: '应用过滤'
@@ -85,13 +85,13 @@ module.exports = [
 //     name: 'luci-app-syncdial',
 //     desc: '多拨虚拟网卡（需要光猫支持多拨）',
 //   },
-//   {
-//     name: 'luci-app-passwall2',
-//     desc: 'passwall2代理软件',
-//   },
+  {
+    name: 'luci-app-vssr',
+    desc: 'vssr代理软件',
+  },
   {
     name: 'luci-app-ssr-plus',
-    desc: 'ssr-plus 代理软件',
+    desc: 'ssr-plus代理软件',
   },
 //   {
 //     name: 'luci-app-aliddns',
