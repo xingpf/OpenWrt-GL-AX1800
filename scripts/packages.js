@@ -89,10 +89,10 @@ module.exports = [
 //     name: 'luci-app-vssr',
 //     desc: 'vssr代理软件',
 //   },
-  {
-    name: 'luci-app-ssr-plus',
-    desc: 'ssr-plus代理软件',
-  },
+//   {
+//     name: 'luci-app-ssr-plus',
+//     desc: 'ssr-plus代理软件',
+//   },
 //   {
 //     name: 'luci-app-aliddns',
 //     desc: '阿里云ddns插件',
