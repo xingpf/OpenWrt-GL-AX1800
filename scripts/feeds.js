@@ -6,6 +6,12 @@
  */
 
 module.exports = [
+  {
+    name: 'NueXini',
+    uri: 'https://github.com/NueXini/NueXini_Packages.git',
+    branch: 'main',
+  },
+
 //   {
 //     name: 'open_app_filter',
 //     uri: 'https://github.com/destan19/OpenAppFilter.git',
