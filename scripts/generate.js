@@ -54,7 +54,7 @@ const GenerateYml = (workflows) => {
     const yaml = require('js-yaml');
 
     const glInfraBuilder = path.resolve(process.cwd(), 'gl-infra-builder')
-    exec(`git clone --depth=1 https://github.com/gl-inet/gl-infra-builder -b axt1800_release ${glInfraBuilder}`);
+    exec(`git clone --depth=1 https://github.com/gl-inet/gl-infra-builder -b main ${glInfraBuilder}`);
 
     // 序列化配置文件
     const keys = ['profile', 'target', 'subtarget', 'description', 'image', 'feeds', 'include', 'packages', 'diffconfig'];
