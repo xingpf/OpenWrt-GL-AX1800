@@ -31,7 +31,7 @@ on:
 
 env:
   REPO_URL: https://github.com/gl-inet/gl-infra-builder
-  REPO_BRANCH: main
+  REPO_BRANCH: axt1800_release
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_WETRANSFER: true
